@@ -1,0 +1,124 @@
+body{
+    background:hsl(185, 75%, 39%) ;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    overflow: hidden;
+    
+}
+
+ .containerdos{
+    background-image: url(bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: -300px -500px;
+ } 
+    
+
+.containeruno{
+    background-image: url(bg-pattern-bottom.svg);
+    background-position: 100px 10px;
+}
+
+
+
+.imgtop{
+  position: absolute;
+  position: bottom;
+}
+
+
+.padre{
+    background: rgb(255, 255, 255);
+    text-align: center ;
+    width: 360px;
+    height: 400px;
+    border-radius: 10px;
+    
+}
+
+.imgcabeza{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.victor{
+    position: relative;
+    bottom: 13%;
+    border: white solid 3px;
+    border-radius: 50%;
+}
+
+.text-buttom{
+    display: inline-flex;   
+}
+
+.text-buttom-position{
+    margin: 0px 30px;
+    line-height: 1px;
+}
+hr{
+    position: relative;
+    bottom: 10px;
+    border-top: 1px solid  rgba(0, 0, 0, 0.13) ;
+    }
+
+.encabezado{
+    position: relative;
+    bottom: 25px;
+}       
+
+.negritas{
+    font-size: 18px;
+    color: rgb(92, 90, 90);
+}
+
+.london{
+    font-size: 15px;
+   color:  rgb(158, 156, 156);
+}
+
+.menor{
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgb(158, 156, 156);
+}
+
+.text-buttom-finish{
+    margin-top: 1px;
+}
+
+.text-buttom-top{
+    color: rgb(92, 90, 90);
+}
+
+.balltop{
+   background-image: url(bg-pattern-top.svg);
+   
+} 
+
+.ballbottom{
+background-image:url(bg-pattern-bottom.svg);
+background-position: 0% 0%;
+
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution { color: hsl(0, 0%, 0%);
+ margin-top: 1px;
+}
+
+@media (max-width: 700px) {
+
+    .padre{
+    
+    right: 100px;
+    }
+}
+
+@media (max-width: 375px){
+
+    .padre{
+        width: 100%;
+    }
+}
